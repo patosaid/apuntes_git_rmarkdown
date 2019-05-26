@@ -249,14 +249,16 @@ en la consola de GIT BACH me dirig? a la carpeta local que contiene este archivo
 
 After you have created the R Markdown document and finished making your changes, it is time to commit them.
 
-1. In RStudio click the Git tab in the upper right pane.( bien ahora me aparece )
-2. Click Commit.
-3. In the Review changes view, check the staged box for all files.
-4. Add a commit message, for example Add initial speed and distance report.
-5. Click Commit.
-6. Click the Pull button to fetch any remote changes.
-7. Click the Push button to push your changes to the remote repository.
-8. On GitHub, navigate to the Code tab of the repository to see the changes.
+1. In RStudio click the Git tab in the upper right pane.(*bien, ahora me aparece  , puse guardar los cambios para que aparezca para hacer commit* )
+2. Click Commit. (*ok*)
+3. In the Review changes view, check the staged box for all files. (*ok*)
+4. Add a commit message, for example Add initial speed and distance report. (*ok*)
+5. Click Commit. (*ok*)
+6. Click the Pull button to fetch any remote changes. (*ok*)
+7. Click the Push button to push your changes to the remote repository. (*ok*)
+8. On GitHub, navigate to the Code tab of the repository to see the changes. (*ok*)
+
+Olvidé el archivo .md, repito los pasos anteriores para añadirlo.
 
 
 

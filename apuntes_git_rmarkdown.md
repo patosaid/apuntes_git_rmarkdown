@@ -5,12 +5,12 @@ Patricio Said
 
 ------------------------------------------------------------------------
 
-<!-- así se ponen comentarios en rmarkdown-->
-### Un poco de documentación:
+<!-- as? se ponen comentarios en rmarkdown-->
+### Un poco de documentaci?n:
 
 -   [Cheat sheet de Rmarkdown](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)
 -   [Sintaxis para documentos en GitHub (markdown)](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)
--   Página de Git, manuales, libros, documentos en español: [got-scm.com](https://git-scm.com/book/es/v2)
+-   P?gina de Git, manuales, libros, documentos en espa?ol: [got-scm.com](https://git-scm.com/book/es/v2)
 -   Un blog de apuntes corto de [Git/GitHub](https://libreim.github.io/blog/2014/02/23/manualgit/)
 -   Un repositorio de apuntes: [aprende Git "curso"](https://github.com/JJ/aprende-git)
 -   Otro repositorio de apuntes: [aprende Git](https://github.com/DGIIMUnderground/DGIIM1)
@@ -24,33 +24,33 @@ Patricio Said
 
 **Nota:**
 
-> El **objetivo** de este documento se enfoca en la creación y publicación de un post formato blog. Se mostrará paso a paso, desde la escritura en Rmarkdown hasta publicación en GitHub.
+> El **objetivo** de este documento se enfoca en la creaci?n y publicaci?n de un post formato blog. Se mostrar? paso a paso, desde la escritura en Rmarkdown hasta publicaci?n en GitHub.
 
 Elementos de RMarkdown
 ----------------------
 
-RMarkdown y GitHub utilizan la sintaxis de Markdown para reproducir facilmente formatos de escrituras (html en este caso). Para escribir un documento bien estructurado es fundamental conocer los elementos básicos para crear un texto: títulos, subtítulos, listas, letras en cursivas o en negritas, citas, etc. Por ejemplo en RMarkdown, para diferenciar un parafo de otro se deben separar por una lina de código vacía.
+RMarkdown y GitHub utilizan la sintaxis de Markdown para reproducir facilmente formatos de escrituras (html en este caso). Para escribir un documento bien estructurado es fundamental conocer los elementos b?sicos para crear un texto: t?tulos, subt?tulos, listas, letras en cursivas o en negritas, citas, etc. Por ejemplo en RMarkdown, para diferenciar un parafo de otro se deben separar por una lina de c?digo vac?a.
 
-### Sintaxis básicas
+### Sintaxis b?sicas
 
-A continuación se presenta algunas de las principales sintaxis y en la linea siguiente la salida o (render) correspondiente:
+A continuaci?n se presenta algunas de las principales sintaxis y en la linea siguiente la salida o (render) correspondiente:
 
-`# Ejemplo de título grande`
+`# Ejemplo de t?tulo grande`
 
-Ejemplo de título grande
+Ejemplo de t?tulo grande
 ========================
 
-`### Ejemplo de un sub título`
+`### Ejemplo de un sub t?tulo`
 
-### Ejemplo de un sub título
+### Ejemplo de un sub t?tulo
 
 `*cursiva*` y `*negrita*`
 
 *cursiva* y **negrita**
 
-<code>\`formato código\`</code>
+<code>\`formato c?digo\`</code>
 
-`formato código`
+`formato c?digo`
 
 `superindice^2^ y subindice~2~`
 
@@ -74,17 +74,17 @@ Poner signos: \* \_ \\
 
 ------------------------------------------------------------------------
 
-`Ecuación en linea $A=\pi*r^2$`
+`Ecuaci?n en linea $A=\pi*r^2$`
 
-Ecuación en linea *A* = *π* \* *r*<sup>2</sup>
+Ecuaci?n en linea *A* = *π* \* *r*<sup>2</sup>
 
 `$$A=\pi*r^2$$`
 
 *A* = *π* \* *r*<sup>2</sup>
 
-`Saltar a [Ejemplo de título grande]`
+`Saltar a [Ejemplo de t?tulo grande]`
 
-Saltar a [Ejemplo de título grande](#ejemplo-de-título-grande)
+Saltar a [Ejemplo de t?tulo grande](#ejemplo-de-ttulo-grande)
 
 `> Cita`
 
@@ -119,7 +119,7 @@ Saltar a [Ejemplo de título grande](#ejemplo-de-título-grande)
 -   \[ \] Push my commits to GitHub
 -   \[ \] Open a pull request
 
-### Comandos básicos de git en consola
+### Comandos b?sicos de git en consola
 
 -   `git init` creates a new Git repository.
 -   `git status` inspects the contents of the working directory and staging area.
@@ -182,7 +182,7 @@ Luego de instalar Git se debe configurar el nombre de usuario y email.
 
 `git config --global user.email "correo@email.com"`
 
-Ver <https://help.github.com/en/articles/set-up-git> para mas información.
+Ver <https://help.github.com/en/articles/set-up-git> para mas informaci?n.
 
 Para crear un repositorio en Git se suele usar las linas de comandos, algunas son:
 
@@ -195,7 +195,7 @@ Para crear un repositorio en Git se suele usar las linas de comandos, algunas so
 -   `mkdir`: crea un directorio
 -   `touch`: crea un archivo
 
-**Ahora usémoslas para crear un repositorio:**
+**Ahora us?moslas para crear un repositorio:**
 
 1.  `mkdir git_practice` to make a new directory to practice.
 2.  `cd git_practice` to make the new directory your working directory.
@@ -214,8 +214,30 @@ A remote is a Git repository that lives outside your Git project folder. Remotes
 
 Git projects are usually managed on Github, a website that hosts Git projects for millions of users. With Github you can access your projects from anywhere in the world by using the basic workflow you learned here.
 
-> Para subir este documento a github: en yalm puse `output: github_document` para que cree un archivo (.md) aparte del (.Rmd). en la consola de GIT BACH me dirigí a la carpeta local que contiene este archivo, luego revisé `git status` , añadí los archivos con `git add .` (el punto es para subir todos los documentos q cambiaron, el .Rmd y .md, y los subí para comparar las salidas), luego un commit `git commit -m "formato github(por ejemplo)"` y finalmente un push, `git push`. Ahora se puede ver el documento en la pagina de GitHub con los render correspondientes de las sintaxis Markdown.
+> Para subir este documento a github: en yalm puse `output: github_document` para que cree un archivo (.md) aparte del (.Rmd). en la consola de GIT BACH me dirig? a la carpeta local que contiene este archivo, luego revis? `git status` , a?ad? los archivos con `git add .` (el punto es para subir todos los documentos q cambiaron, el .Rmd y .md, y los sub? para comparar las salidas), luego un commit `git commit -m "formato github(por ejemplo)"` y finalmente un push, `git push`. Ahora se puede ver el documento en la pagina de GitHub con los render correspondientes de las sintaxis Markdown (el .md).
 
-**Ahora, cómo publicar un documento tipo blog hosteando la página con GitHub Pages**
+**Ahora, c?mo publicar un documento tipo blog hosteando la p?gina con GitHub Pages**
 
 **Fuente:** (<https://resources.github.com/whitepapers/github-and-rstudio/>)
+
+(En RStudio ir a Tools&gt; Global options&gt; Git y en el PATH debe estar git.exe C:/Program Files/Git/bin/git.exe )
+
+1.  Crear nuevo proyecto: File &gt; New project &gt; Version control &gt; Git
+2.  Pegar la URL del repositorio creado en GitHub , en mi caso: <https://github.com/patosaid/apuntes_git_rmarkdown.git>
+3.  Clic en crear. (esto hace que se clone el repo en la carpeta q elegí... quedó la cagá, tengo un repo clonado dentro de un repo...)
+4.  Crear un documento (este mismo)
+
+**Commit and push the changes to GitHub**
+
+After you have created the R Markdown document and finished making your changes, it is time to commit them.
+
+1.  In RStudio click the Git tab in the upper right pane.(*bien, ahora me aparece , puse guardar los cambios para que aparezca para hacer commit* )
+2.  Click Commit. (*ok*)
+3.  In the Review changes view, check the staged box for all files. (*ok*)
+4.  Add a commit message, for example Add initial speed and distance report. (*ok*)
+5.  Click Commit. (*ok*)
+6.  Click the Pull button to fetch any remote changes. (*ok*)
+7.  Click the Push button to push your changes to the remote repository. (*ok*)
+8.  On GitHub, navigate to the Code tab of the repository to see the changes. (*ok*)
+
+Olvidé el archivo .md, repito los pasos anteriores para añadirlo.
