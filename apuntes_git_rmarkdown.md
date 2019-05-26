@@ -290,7 +290,7 @@ Now that you have made some local commits, it is time to send your changes to th
 
 1.  Push the changes to the remote repository: `git push -u origin <BRANCH-NAME>`
 2.  Create a [Pull Request](https://help.github.com/en/articles/creating-a-pull-request) on GitHub. Fill out the body of the Pull Request with information about the changes you're introducing.
-3.  Fill out the body of the Pull Request with information about the changes youâre introducing.
+3.  Fill out the body of the Pull Request with information about the changes you're introducing.
 
 **Merge your pull request on GitHub**
 
