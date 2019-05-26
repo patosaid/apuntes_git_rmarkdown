@@ -241,21 +241,21 @@ After you have created the R Markdown document and finished making your changes,
 7.  Click the `Push` button to push your changes to the remote repository. (*ok*)
 8.  On GitHub, navigate to the Code tab of the repository to see the changes. (*ok*)
 
-OlvidÃ© el archivo .md, repito los pasos anteriores para aÃ±adirlo.
+Olvidé el archivo .md, repito los pasos anteriores para añdirlo.
 
 *Create local branches with Git*
 
-Letâs make a couple of more changes in your project using the steps of GitHub Flow. As RStudio currently does not support local branches very well, we will use Git from the command-line in RStudio.
+Let's make a couple of more changes in your project using the steps of GitHub Flow. As RStudio currently does not support local branches very well, we will use Git from the command-line in RStudio.
 
 1.  In RStudio click the `Terminal` tab in the lower left pane. The `Terminal` tab is next to the Console tab.
 2.  Create a new branch. Replace <BRANCH-NAME> with a descriptive name, yo le puse "new-branch": `git branch new-branch`
-3.  Check your repositoryâs status: `git status`
+3.  Check your repository's status: `git status`
 4.  Check out to your new branch: `git checkout new-branch`
 5.  Verify that you are now checked out to your new branch: `git status`
 
 *Make local changes with Git*
 
-Letâs generate the HTML output in a separate directory called docs. To do this we add a function in the heading of the R Markdown document to âknitâ the output in the desired output directory.
+Let's generate the HTML output in a separate directory called docs. To do this we add a function in the heading of the R Markdown document to "knit" the output in the desired output directory.
 
 1.  In RStudio open el archivo .Rmd (en mi caso es este mismo documento `apuntes_git_rmarkdown.Rmd`) and add the following lines in the heading under the title field:
 
@@ -278,7 +278,7 @@ knit: (function(input_file, encoding) {
 After you have created the HTML output, it is time to commit the changes.
 
 1.  Determine your file's status. Remember that `git status` allows us to see the status of the files on our branch at any given time. Your file is listed under the heading `Untracked files`: `git status`
-2.  Add your file to the staging area so itâs prepared to become part of the next commit: `git add .`
+2.  Add your file to the staging area so it's prepared to become part of the next commit: `git add .`
 3.  See your file's current status. Your file is now listed under the heading `Changes to be committed`. This tells us that the file is in the staging area. It also indicates this is a new file: `git status`
 4.  Commit your file. Replace `<COMMIT-MESSAGE>` with a log message describing the changes, for example `Knit output to a docs folder`. A commit tells Git to collect all of the files in the staging area and store them to version control as a single unit of work: `git commit -m "<COMMIT-MESSAGE>"`
 5.  See the history of commits: `git log --online` (*me salió error*)
@@ -289,12 +289,12 @@ After you have created the HTML output, it is time to commit the changes.
 Now that you have made some local commits, it is time to send your changes to the remote copy of your repository on GitHub and create a Pull Request.
 
 1.  Push the changes to the remote repository: `git push -u origin <BRANCH-NAME>`
-2.  Create a [Pull Request](https://help.github.com/en/articles/creating-a-pull-request) on GitHub. Fill out the body of the Pull Request with information about the changes youâre introducing.
+2.  Create a [Pull Request](https://help.github.com/en/articles/creating-a-pull-request) on GitHub. Fill out the body of the Pull Request with information about the changes you're introducing.
 3.  Fill out the body of the Pull Request with information about the changes youâre introducing.
 
 **Merge your pull request on GitHub**
 
-Since this is your repository, you probably donât have anyone to collaborate with (yet). Go ahead and merge your Pull Request now.
+Since this is your repository, you probably don't have anyone to collaborate with (yet). Go ahead and merge your Pull Request now.
 
 1.  On GitHub, navigate to the `Pull Request` that you just opened.
 2.  Scroll down and click the big green `Merge Pull` Request button.
