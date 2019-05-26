@@ -269,7 +269,7 @@ knit: (function(input_file, encoding) {
 
 (*En el yalm tuve q sacar `output: github_document`*)
 
-(*TambiÃ©n tuve que crear una carpeta llamada docs para que guardara el archivo index.htlm ya que me salia error*)
+(*También tuve que crear una carpeta llamada docs para que guardara el archivo index.htlm ya que me salia error*)
 
 1.  Click `File`, Save to save the changes.
 
@@ -277,11 +277,11 @@ knit: (function(input_file, encoding) {
 
 After you have created the HTML output, it is time to commit the changes.
 
-1.  Determine your fileâs status. Remember that `git status` allows us to see the status of the files on our branch at any given time. Your file is listed under the heading `Untracked files`: `git status`
+1.  Determine your file's status. Remember that `git status` allows us to see the status of the files on our branch at any given time. Your file is listed under the heading `Untracked files`: `git status`
 2.  Add your file to the staging area so itâs prepared to become part of the next commit: `git add .`
-3.  See your fileâs current status. Your file is now listed under the heading `Changes to be committed`. This tells us that the file is in the staging area. It also indicates this is a new file: `git status`
+3.  See your file's current status. Your file is now listed under the heading `Changes to be committed`. This tells us that the file is in the staging area. It also indicates this is a new file: `git status`
 4.  Commit your file. Replace `<COMMIT-MESSAGE>` with a log message describing the changes, for example `Knit output to a docs folder`. A commit tells Git to collect all of the files in the staging area and store them to version control as a single unit of work: `git commit -m "<COMMIT-MESSAGE>"`
-5.  See the history of commits: `git log --online` (*me saliÃ³ error*)
+5.  See the history of commits: `git log --online` (*me salió error*)
 6.  See the changes between the master branch and the current branch (HEAD): `git diff --stat --summary master..<BRANCH-NAME>`
 
 **Open a pull request on GitHub**
