@@ -19,6 +19,7 @@ Patricio Said
 -   Libro [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/) (**VER**)
 -   Instrucciones de GitHub / RStudio (<https://resources.github.com/whitepapers/github-and-rstudio/>) (**VER**)
 -   RMarkdown formato de documentos GitHub (<https://rmarkdown.rstudio.com/github_document_format.html>) (**VER**)
+-   Diagramas del flujo de trabajo en GitHub (<https://guides.github.com/introduction/flow/>)
 
 ------------------------------------------------------------------------
 
@@ -231,13 +232,37 @@ Git projects are usually managed on Github, a website that hosts Git projects fo
 
 After you have created the R Markdown document and finished making your changes, it is time to commit them.
 
-1.  In RStudio click the Git tab in the upper right pane.(*bien, ahora me aparece , puse guardar los cambios para que aparezca para hacer commit* )
-2.  Click Commit. (*ok*)
+1.  In RStudio click the `Git` tab in the upper right pane.(*bien, ahora me aparece , puse guardar los cambios para que aparezca para hacer commit* )
+2.  Click `Commit`. (*ok*)
 3.  In the Review changes view, check the staged box for all files. (*ok*)
 4.  Add a commit message, for example Add initial speed and distance report. (*ok*)
-5.  Click Commit. (*ok*)
-6.  Click the Pull button to fetch any remote changes. (*ok*)
-7.  Click the Push button to push your changes to the remote repository. (*ok*)
+5.  Click `Commit`. (*ok*)
+6.  Click the `Pull` button to fetch any remote changes. (*ok*)
+7.  Click the `Push` button to push your changes to the remote repository. (*ok*)
 8.  On GitHub, navigate to the Code tab of the repository to see the changes. (*ok*)
 
 Olvidé el archivo .md, repito los pasos anteriores para añadirlo.
+
+*Create local branches with Git*
+
+Let’s make a couple of more changes in your project using the steps of GitHub Flow. As RStudio currently does not support local branches very well, we will use Git from the command-line in RStudio.
+
+1.  In RStudio click the `Terminal` tab in the lower left pane. The `Terminal` tab is next to the Console tab.
+2.  Create a new branch. Replace <BRANCH-NAME> with a descriptive name, yo le puse "new-branch": `git branch new-branch`
+3.  Check your repository’s status: `git status`
+4.  Check out to your new branch: `git checkout new-branch`
+5.  Verify that you are now checked out to your new branch: `git status`
+
+*Make local changes with Git*
+
+Let’s generate the HTML output in a separate directory called docs. To do this we add a function in the heading of the R Markdown document to ‘knit’ the output in the desired output directory.
+
+1.  In RStudio open el archivo .Rmd (en mi caso es este mismo documento `apuntes_git_rmarkdown.Rmd`) and add the following lines in the heading under the title field:
+
+``` r
+knit: (function(input_file, encoding) {
+  out_dir <- 'docs';
+  rmarkdown::render(input_file,
+ encoding=encoding,
+ output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
+```
