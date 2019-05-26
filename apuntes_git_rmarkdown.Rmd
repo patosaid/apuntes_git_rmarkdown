@@ -3,13 +3,13 @@ title: "Apuntes Git y RMarkdown"
 author: "Patricio Said"
 date: "25 de mayo de 2019"
 
-output: html_document
+output: github_document
 ---
 
 ***
 <!-- así se ponen comentarios en rmarkdown--> 
 ### Un poco de documentación: 
--  [Cheat sheet de Rmarkdown](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf) 
+- [Cheat sheet de Rmarkdown](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf) 
 - [Sintaxis para documentos en GitHub (markdown)](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)
 - Página de Git, manuales, libros, documentos en español: [got-scm.com](https://git-scm.com/book/es/v2)
 - Un blog de apuntes corto de [Git/GitHub](https://libreim.github.io/blog/2014/02/23/manualgit/)
@@ -17,6 +17,9 @@ output: html_document
 - Otro repositorio de apuntes: [aprende Git](https://github.com/DGIIMUnderground/DGIIM1)
 - Aprender Git y GitHut con [Codecademy](https://www.codecademy.com/courses/learn-git/)
 - Libro [blogdown: Creating Websites with R Markdown](https://bookdown.org/yihui/blogdown/) y el [Repo. en GitHub](https://github.com/rstudio/blogdown)
+- Libro [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/) (**VER**)
+- Instrucciones de GitHub / RStudio (https://resources.github.com/whitepapers/github-and-rstudio/) (**VER**)
+- RMarkdown formato de documentos GitHub (https://rmarkdown.rstudio.com/github_document_format.html) (**VER**)
 
 ***
 
@@ -213,8 +216,22 @@ Para crear un repositorio en Git se suele usar las linas de comandos, algunas so
 6. `git commit -m "First commit"` to make your first commit with the new README file.
 
 
+
+A remote is a Git repository that lives outside your Git project folder. Remotes can live on the web, on a shared network or even in a separate folder on your local computer.
+The Git Collaborative Workflow are steps that enable smooth project development when multiple collaborators are working on the same Git project.
+We also learned the following commands
+
+* `git clone`: Creates a local copy of a remote.
+* `git remote -v`: Lists a Git project's remotes.
+* `git fetch`: Fetches work from the remote into the local copy.
+* `git merge origin/master`: Merges origin/master into your local branch.
+* `git push origin <branch_name>`: Pushes a local branch to the origin remote.
+
+Git projects are usually managed on Github, a website that hosts Git projects for millions of users. With Github you can access your projects from anywhere in the world by using the basic workflow you learned here.
+
 **Ahora un repositorio remoto con GitHub:**
 
+Fuente: 
 
 
 
