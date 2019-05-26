@@ -214,6 +214,6 @@ A remote is a Git repository that lives outside your Git project folder. Remotes
 
 Git projects are usually managed on Github, a website that hosts Git projects for millions of users. With Github you can access your projects from anywhere in the world by using the basic workflow you learned here.
 
-**Ahora un repositorio remoto con GitHub:**
+> Para subir este documento a github: en yalm puse `output: github_document` para que cree un archivo (.md) aparte del (.Rmd). en la consola de GIT BACH me dirigí a la carpeta local que contiene este archivo, luego revisé `git status` , añadí los archivos con `git add .`, luego un commit `git commit -m "formato github(por ejemplo)"` y finalmente un push, `git push`.
 
-Fuente:
+**Ahora un repositorio remoto con GitHub:**
