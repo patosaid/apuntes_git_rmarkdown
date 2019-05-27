@@ -3,6 +3,7 @@ Apuntes Git y RMarkdown
 Patricio Said
 25 de mayo de 2019
 Ver la versión web (https://patosaid.github.io/apuntes_git_rmarkdown/)
+
 ------------------------------------------------------------------------
 
 <!-- así se ponen comentarios en rmarkdown-->
