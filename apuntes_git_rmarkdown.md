@@ -304,7 +304,7 @@ Since this is your repository, you probably don't have anyone to collaborate wit
 3.  Click `Confirm Merge`.
 4.  Delete the branch <BRANCH-NAME>.
 
-CREAR LA PAGINA! porfin
+CREAR LA PAGINA! (por fin!)
 =======================
 
 This tutorial is going to use GitHub Pages to publish the HTML output. To initialize GitHub Pages we need to perform a few more steps:
