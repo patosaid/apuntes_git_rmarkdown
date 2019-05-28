@@ -1,7 +1,7 @@
 # apuntes_git_rmarkdown
 Apuntes pasa subir un documento a github desde RStudio usando Rmarkdown y Git
 
-* Desde el Rmarkdown a HTML no insertó el link de video. *No importa*
+* Desde el Rmarkdown a HTML no insertó el link de video. *(No importa!)*
 * En git tengo claro los comandos: clone add commit push pull branch checkout merge, y tengo dudas con el cambio de HEAD, el comando reset con HEAD, y uno q dice origin/master, fetch.
 
 Por las dudas:
