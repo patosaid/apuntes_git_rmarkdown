@@ -20,4 +20,5 @@ Por las dudas:
 * El documento .Rmd genera (generaba) un .md que puede ser visualizado por github. (.md debe estar desactualizado)
 * Actualmente el .Rmd genera un archivo html y está hosteado en github: https://patosaid.github.io/apuntes_git_rmarkdown/
 
-
+To do:  
+- [ ] Eliminar la licencia xd
