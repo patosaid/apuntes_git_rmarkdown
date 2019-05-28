@@ -21,4 +21,3 @@ Por las dudas:
 * Actualmente el .Rmd genera un archivo html y está hosteado en github: https://patosaid.github.io/apuntes_git_rmarkdown/
 
 
-## Revisar: https://git-scm.com/book/es/v2
