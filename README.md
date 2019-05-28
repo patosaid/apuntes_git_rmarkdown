@@ -9,6 +9,7 @@ Por las dudas:
 - [ ] Hacer diferentes commit en cada rama.
 - [ ] Pasar una rama cualquiera y pasarla a master. (Cambiar head o hacer merge... no sé)
 - [ ] Volver al master que tenía antes.
+
 **Revisar:** https://git-scm.com/book/es/v2
 
 
