@@ -130,16 +130,20 @@ Saltar a [Ejemplo de título grande]
 
 ***
 
-```{r, eval=FALSE}
-<iframe width="560" height="315" src="http://www.youtube.com/embed/9bZkp7q19f0?rel=0" frameborder="0" allowfullscreen></iframe>
-```
+**video**
 
-* Las sintaxis presentadas son algunas que se pueden utilizar en Rmarkdown, pero hay otras que funcionan en [GitHub](https://help.github.com/en/articles/basic-writing-and-formatting-syntax):
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/9bZkp7q19f0?rel=0" frameborder="0" allowfullscreen></iframe>
+
+<br>
+
+> Las sintaxis presentadas son algunas que se pueden utilizar en Rmarkdown, pero hay otras que funcionan en [GitHub](https://help.github.com/en/articles/basic-writing-and-formatting-syntax):
 
 - [x] Finish my changes
 - [ ] Push my commits to GitHub
 - [ ] Open a pull request
 
+(**Las cajas de check funcionan en los archivos .md)
 
 ### Comandos básicos de git en consola
 
