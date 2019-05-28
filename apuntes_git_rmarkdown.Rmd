@@ -130,7 +130,7 @@ Saltar a [Ejemplo de título grande]
 
 ***
 
-**video**
+**Video**
 
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/9bZkp7q19f0?rel=0" frameborder="0" allowfullscreen></iframe>
@@ -143,7 +143,7 @@ Saltar a [Ejemplo de título grande]
 - [ ] Push my commits to GitHub
 - [ ] Open a pull request
 
-(**Las cajas de check funcionan en los archivos .md)
+(**Las cajas de check funcionan en los archivos .md**)
 
 ### Comandos básicos de git en consola
 
