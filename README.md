@@ -7,7 +7,7 @@ Apuntes pasa subir un documento a github desde RStudio usando Rmarkdown y Git
 Por las dudas:
 - [ ] Crear un branch.
 - [ ] Hacer diferentes commit en cada rama.
-- [ ] Pasar una rama como master. (Cambiar head o hacer merge... 
+- [ ] Pasar una rama cualquiera y pasarla a master. (Cambiar head o hacer merge... no sé)
 - [ ] Volver al master que tenía antes.
 
 Revisar: https://git-scm.com/book/es/v2
