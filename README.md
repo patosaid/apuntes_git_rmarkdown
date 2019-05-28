@@ -9,5 +9,15 @@ Por las dudas:
 - [ ] Hacer diferentes commit en cada rama.
 - [ ] Pasar una rama cualquiera y pasarla a master. (Cambiar head o hacer merge... no sé)
 - [ ] Volver al master que tenía antes.
+**Revisar:** https://git-scm.com/book/es/v2
 
-Revisar: https://git-scm.com/book/es/v2
+
+
+### Sobre los documentos:
+
+* Trabajar en el documento .Rmd
+* El documento .Rmd genera (generaba) un .md que puede ser visualizado por github. (.md debe estar desactualizado)
+* Actualmente el .Rmd genera un archivo html y está hosteado en github: https://patosaid.github.io/apuntes_git_rmarkdown/
+
+
+## Revisar: https://git-scm.com/book/es/v2
