@@ -1,4 +1,4 @@
-# Apuntes random de Rmarkdown , Git y cómo hoster página en GitHub
+# Apuntes random de Rmarkdown , Git y cómo hostear página en GitHub
 Apuntes pasa subir un documento a github desde RStudio usando Rmarkdown y Git
 
 * Desde el Rmarkdown a HTML no insertó el link de video. *(No importa!)*
