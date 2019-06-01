@@ -165,7 +165,7 @@ Git branching allows users to experiment with different versions of a project by
 Iniciando con Git y GitHub
 --------------------------
 
-#### BitHub
+#### GitHub
 
 Para usar **GitHub** se debe crear una cuenta en <https://github.com/>.
 
